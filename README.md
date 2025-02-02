@@ -2,6 +2,7 @@
 "SnapNServeIQ" is a cutting-edge app enabling real-time image processing from Android to laptop. Instantly upload, process, and receive object inference back on your mobile. Utilizing ngrok for secure communication, it seamlessly bridges mobile and desktop for robust, efficient image analysis and intelligent insights.
 
 Files used
+
 ●	Server.zip (Python-based application @ laptop)
 
 ●	client.zip (Android app @ Android mobile phone)
@@ -9,12 +10,15 @@ Files used
 Procedure:
 
 Step 1: Server side (A laptop): 
+
 ●	Install Python 3.10.14 on the the laptop
+
 ●	Open a terminal and check the python version as follows: 
 
 ![image](https://github.com/user-attachments/assets/577c3a5a-130e-4273-9a1b-799e4497bcc6)
 
 Step 2: Extract the server.zip into the C drive (on the laptop). This will store the following files in the C:\server\: 
+
 ●	server_vit.py
 
 ●	best.pt 
@@ -53,6 +57,7 @@ Step 9: Enter the ngrok url (Step 6) to the application as follows:
 ![image](https://github.com/user-attachments/assets/b3a4cbab-8377-453e-9d9a-31c0322c6f4e)
 
 Step 10 : Select any image from the mobile phone (camera / gallery ). 
+
 ●	For accessing the camera: 
 
 ○	single tap on camera lens image (at the home page)
